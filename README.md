@@ -128,9 +128,9 @@ The dataset contains residential property listings scraped from Property24 Kenya
 
 * **Missing land size and plinth area:** Online listings frequently leave out total acreage or square footage. Without exact land sizes, valuation for standalone houses and townhouses has an unavoidable margin of error.
 
-* **Unstructured qualitative details:** Value drivers like interior finishes, backup generators, borehole access, and compound security are buried in unstructured text descriptions rather than standardized data columns.
+* Value drivers like interior finishes, backup generators, borehole access, and compound security are buried in unstructured text descriptions rather than standardized data columns.
 
-* **Spatial granularity:** Listings often group broad areas together (e.g., "Westlands" or "Kilimani") without exact street coordinates, missing out on hyper-local price differences within the same neighborhood.
+* Listings often group broad areas together (e.g., "Westlands" or "Kilimani") without exact street coordinates, missing out on hyper-local price differences within the same neighborhood.
 
 
 
@@ -144,11 +144,11 @@ The dataset contains residential property listings scraped from Property24 Kenya
 
 * **Incorporate physical property dimensions:** Collecting consistent square meter measurements and parcel sizes will substantially reduce valuation errors on landed properties.
 
-* **Extract text features using NLP:** Parsing listing descriptions to capture high-value amenities (such as swimming pools, fitted kitchens, or solar power) as explicit categorical variables.
+* Parsing listing descriptions to capture high-value amenities (such as swimming pools, fitted kitchens, or solar power) as explicit categorical variables.
 
 * **Integrate geospatial coordinates:** Using exact latitude and longitude data to map proximity to key road corridors, business districts, and social infrastructure.
 
-* **Model experimentation:** Moving from baseline models to tuned gradient boosting algorithms (such as XGBoost or LightGBM) to better capture complex interactions between location and home specs.
+* Moving from baseline models to tuned gradient boosting algorithms such as XGBoost or LightGBM to better capture complex interactions between location and home specs.
 
 
 
